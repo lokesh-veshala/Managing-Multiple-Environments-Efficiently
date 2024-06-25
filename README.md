@@ -65,6 +65,7 @@ output "instance_ids" {
 output "public_ips" {
   value = aws_instance.app_server[*].public_ip
 }
+
 ## Ansible Playbook
 Navigate to the ansible/ directory and define your playbook in playbook.yml.
 
